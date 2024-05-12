@@ -1,0 +1,15 @@
+.rating-reveal
+{
+    animation: reveal 1.5s forwards ease;
+}
+@keyframes reveal
+{
+    from
+    {
+        clip-path: circle(0 at 0 0);
+    }
+    to
+    {
+        clip-path: circle(141.4% at 0 0);
+    }
+}

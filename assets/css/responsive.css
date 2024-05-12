@@ -1,0 +1,113 @@
+/* large screens */
+@media (min-width: 1600px)
+{
+
+}
+
+
+@media (max-width: 1500px)
+{
+
+}
+
+
+/* Desktops/Laptops */
+@media (max-width: 1200px)
+{
+    .ratingWrapper
+    {
+        padding: 70px 30px;
+    }
+    .lap-100
+    {
+        width: 100%;
+    }
+    .inputField .labelTxt, .inputField label
+    {
+        font-size: 12px;
+    }
+    .side
+    {
+        width: 40%;
+
+    }
+    .side h2
+    {
+        font-size: 30px;
+    }
+
+    .thankyoutext
+    {
+        font-size: 40px;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1024px)
+{
+
+}
+
+/* Tablets */
+@media (max-width: 768px)
+{
+    .tab-100
+    {
+        width: 100%;
+    }
+    .ratingWrapper
+    {
+        padding: 70px;
+    }
+    .side
+    {
+        position: static;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .order_c
+    {
+        order: 2;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px)
+{
+    .ratingWrapper
+    {
+        padding: 70px 20px;
+    }
+    .wrapper
+    {
+        padding: 10px 0;
+    }
+    .mainHeading
+    {
+        font-size: 20px;
+    }
+    .starRating
+    {
+        width: 80%;
+        justify-content: start;
+    }
+    .starRating i
+    {
+        margin-bottom: 10px;
+        width: 28%;
+        margin-right: 10px;
+    }
+    ::placeholder, .formTxt
+    {
+        font-size: 10px;
+    }
+    .thankyoutext
+    {
+        font-size: 30px;
+    }
+    .thankyouBtn
+    {
+        width: 100%;
+    }
+
+}
